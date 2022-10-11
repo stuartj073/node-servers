@@ -27,3 +27,13 @@ const toArray1 = (...args) => {
 
 console.log(toArray1(1, 2, 3, 4, 5))
 
+
+// destructuring
+
+const printName = ({ name }) => {
+    console.log(name);
+}
+
+printName(person);
+
+
