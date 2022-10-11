@@ -34,6 +34,7 @@ const printName = ({ name }) => {
     console.log(name);
 }
 
-printName(person);
+const { name, s_name} = person;
+console.log(name, s_name);
 
 
